@@ -15,13 +15,13 @@ build:
 
 requirements:
   build:
+    - libgcc
     - python
     - setuptools
     - numpy
     - pandas
     - matplotlib
     - deepdish
-    - libgcc
   run:
     - python
     - numpy
