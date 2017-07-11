@@ -23,6 +23,7 @@ requirements:
     - matplotlib
     - deepdish
   run:
+    - libgcc
     - python
     - numpy
     - pandas
