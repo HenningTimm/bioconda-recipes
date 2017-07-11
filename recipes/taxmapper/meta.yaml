@@ -21,6 +21,7 @@ requirements:
     - pandas
     - matplotlib
     - deepdish
+    - libgcc
   run:
     - python
     - numpy
