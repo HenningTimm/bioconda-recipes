@@ -9,7 +9,6 @@ source:
 
 build:
   skip: True # [py27 or osx]
-  number: 1
   entry_points:
     - taxmapper=taxmapper:main
 
@@ -29,23 +28,6 @@ requirements:
     - pandas
     - matplotlib
     - deepdish
-    - rapsearch
-    - cutadapt
-    - snakemake
-    - fastqc
-    - cairo 
-    - r-base
-    - r-data.table
-    - r-vegan
-    - r-ggplot2
-    - rpy2
-    - r-reshape2
-    - r-gridextra
-    - bioconductor-gage
-    - bioconductor-pathview
-    - r-locfit
-    - r-rocr
-    - bioconductor-edger
 
 test:
   commands:
